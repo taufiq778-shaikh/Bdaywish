@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&family=Dancing+Script:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #2c1b1b;
+  background: radial-gradient(circle at 20% 20%, rgba(249, 198, 215, 0.35) 0, transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(232, 224, 255, 0.4) 0, transparent 28%),
+    radial-gradient(circle at 50% 70%, rgba(245, 208, 112, 0.25) 0, transparent 30%),
+    #fef9f6;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: #1f1a1a;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f9c6d7 0%, #e96a8d 100%);
+  border-radius: 999px;
+}
+
+.glass-panel {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.soft-border {
+  border: 1px solid rgba(233, 106, 141, 0.25);
+}
+
+.light-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
