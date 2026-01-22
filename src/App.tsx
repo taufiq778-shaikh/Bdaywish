@@ -219,7 +219,7 @@ export default function App() {
                 </a>
                 <div className="overflow-hidden rounded-2xl border border-white/60 bg-black/70 shadow-lg">
                 <video
-                  src="surya-videomp4.mp4.mp4"
+                  src="/surya-videomp4.mp4"
                   controls
                   className="h-52 w-full"
                     />

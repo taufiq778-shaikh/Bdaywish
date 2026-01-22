@@ -27,26 +27,26 @@ export const memories: MemoryItem[] = [
   {
     title: '🧿',
     caption: 'MAZA RASSGULLLLLA',
-    media: 'surya_image_3.jpeg',
+    media: '/surya_image_3.jpeg',
     type: 'image'
   },
   {
     title: '🧿',
     caption: 'MAZI SONPAPADIIIIII',
-    media: 'surya_image.jpeg',
+    media: '/surya_image.jpeg',
     type: 'image'
   },
   {
     title: '🧿',
     caption: '...',
     media:
-      'surya-video-2-1.mp4.mp4',
+      '/surya-video-2-1.mp4',
     type: 'video'
   },
   {
     title: '🧿',
     caption: 'MAZA UKADI CHAA MODAKKKK',
-    media: 'surya_image_2.jpeg',
+    media: '/surya_image_2.jpeg',
     type: 'image'
   }
 ]
